@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+::-webkit-scrollbar {
+  scrollbar-width: thin;
+}
+
+.line-chart-container {
+  display: flex;
+  flex: 1;
+  height: 255px;
+}
+
+.line-chart-container > canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.line-chart-container-bar {
+  display: flex;
+  flex: 1;
+  height: 240px;
+}
+
+.line-chart-container-bar > canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
